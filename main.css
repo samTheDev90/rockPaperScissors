@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(42, 42, 42);
+  color: whitesmoke;
+
+
+}
+
+
+
+
+.rock {
+
+  background-color: bisque;
+  color: azure;
+  border: 1px;
+  border-color: black;
+  border-radius: 50px;
+
+}
+
+.paper {
+  margin-left: 20px;
+  background-color: bisque;
+  color: azure;
+  border: 1px;
+  border-color: black;
+  border-radius: 50px;
+
+
+}
+
+.scissors {
+
+  margin-left: 20px;
+  background-color: bisque;
+  color: azure;
+  border: 1px;
+  border-color: black;
+  border-radius: 50px;
+
+
+}
+
+
+.rock:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.rock:active {
+
+  opacity: 0.6;
+
+
+}
+
+.paper:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.paper:active {
+  opacity: 0.6;
+}
+
+.scissors:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.scissors:active {
+  opacity: 0.6;
+}
