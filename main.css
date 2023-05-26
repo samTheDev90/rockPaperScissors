@@ -1,43 +1,31 @@
 body {
   background-color: rgb(42, 42, 42);
   color: whitesmoke;
+  font-family: arial;
 
+
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
 
 }
 
 
 
 
-.rock {
 
-  background-color: bisque;
-  color: azure;
-  border: 1px;
-  border-color: black;
-  border-radius: 50px;
-
-}
-
-.paper {
-  margin-left: 20px;
-  background-color: bisque;
-  color: azure;
-  border: 1px;
-  border-color: black;
-  border-radius: 50px;
-
-
-}
-
+.paper,
+.rock,
 .scissors {
 
-  margin-left: 20px;
+  margin-right: 20px;
   background-color: bisque;
-  color: azure;
-  border: 1px;
-  border-color: black;
-  border-radius: 50px;
+  border: solid 3px rgb(200, 68, 68);
+  ;
 
+  border-radius: 50px;
 
 }
 
@@ -70,4 +58,27 @@ body {
 
 .scissors:active {
   opacity: 0.6;
+}
+
+.reset {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  border: solid 1px black;
+  padding: 10px 15px;
+  border-radius: 20px;
+
+
+}
+
+.move-img {
+  background-color: bisque;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.img-text {
+  text-align: top;
+
 }
